@@ -1,1 +1,8 @@
-#turnred{color:red;} 
+@import url(https://fonts.googleapis.com/css?family=Alice);
+
+.design{font-size:60px; 
+		color:blue; 
+		text-align:left; 
+		padding-top:20px;}
+body{background-color:red; 
+	font-family:'Alice';}
