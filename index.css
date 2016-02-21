@@ -1,8 +1,95 @@
-@import url(https://fonts.googleapis.com/css?family=Alice);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+#square{width:30px;
+		height: 30px;
+		background: purple;
+		border-radius: 5px;
+		margin-top: 10px;
+		margin-left: 10px;
+		position: fixed;}
+
+.container{width:100vw;
+			height:100%;}
+
+.jumbotron{width:100vw;
+		   background-image: }
+
+a:hover{color:blue;
+	    opacity: 0.6;
+	    text-decoration:none;}
+
+.link1{font-size: 20px;
+	   color: black;
+	   text-align: left;
+	   margin-left: 120px;}
+
+.link2{font-size: 20px;
+	   color: black;
+	   text-align: left;
+	   margin-left: 180px;
+	   margin-bottom: 30px;}
+
+.link3{font-size: 20px;
+	   color: black;
+	   text-align: right;
+	   margin-left: 240px;
+	   margin-bottom: 30px;}
+
+.link4{font-size: 20px;
+	   color: black;
+	   text-align: right;
+	   margin-left: 280px;
+	   margin-bottom: 30px;}
+
+.row1{background-color: #D1C4F5;
+	  width:100vw;}
+
+.row2{background-color: #9372ED;
+	  width:100vw;}
 
 .design{font-size:60px; 
 		color:blue; 
-		text-align:left; 
-		padding-top:20px;}
-body{background-color:red; 
-	font-family:'Alice';}
+		text-align:center; 
+		padding-top:210px;
+		padding-bottom: 210px;}
+
+.design1{font-size:60px; 
+		color:blue; 
+		text-align:center; 
+		padding-top:50px;
+		padding-bottom:30px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width:100wv;
+		background-color:#D1C4F5;}
+
+.design2{font-size:60px; 
+		color:blue; 
+		text-align:center; 
+		padding-top:50px;
+		padding-bottom:30px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width:100wv;
+		background-color:#9372ED;}
+
+.parragraphdesign1{font-size:30px;
+	              color:black;
+	              text-align: center;
+	              width:100%;
+	              padding-bottom:50px;
+	              margin-bottom: 0px;
+	              margin-top: 0px;
+	              background-color:#D1C4F5;}
+
+.parragraphdesign2{font-size:30px;
+	              color:black;
+	              text-align: center;
+	              width:100%;
+	              padding-bottom:50px;
+	              margin-bottom: 0px;
+	              margin-top: 0px;
+	              background-color:#9372ED;}
+
+body {background-color:#D1C4F5; 
+	 font-family:'Quicksand';}
