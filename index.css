@@ -12,33 +12,45 @@
 			height:100%;}
 
 .jumbotron{width:100vw;
-		   background-image: }
+		   height:100vh; 
+		   margin-bottom: 0px;
+		   background: url('http://56.media.tumblr.com/b0912c8bfa885b0121386dc5d5a74f95/tumblr_nm1xyuOTGF1r88099o1_1280.jpg') no-repeat center;}
 
-a:hover{color:blue;
+.talk{display: inline-block;
+	margin: 10px;}
+
+a:hover{color:gray;
 	    opacity: 0.6;
 	    text-decoration:none;}
 
+.navbar{background-color: black;
+	    width: 100vw;
+	    margin-top: 0px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;}
+
 .link1{font-size: 20px;
-	   color: black;
+	   color: white;
 	   text-align: left;
-	   margin-left: 120px;}
+	   margin-left: 120px;
+	   margin-bottom: 30px;}
 
 .link2{font-size: 20px;
-	   color: black;
+	   color: white;
 	   text-align: left;
 	   margin-left: 180px;
 	   margin-bottom: 30px;}
 
 .link3{font-size: 20px;
-	   color: black;
+	   color: white;
 	   text-align: right;
 	   margin-left: 240px;
 	   margin-bottom: 30px;}
 
 .link4{font-size: 20px;
-	   color: black;
+	   color: white;
 	   text-align: right;
-	   margin-left: 280px;
+	   margin-left: 260px;
 	   margin-bottom: 30px;}
 
 .row1{background-color: #D1C4F5;
@@ -48,48 +60,53 @@ a:hover{color:blue;
 	  width:100vw;}
 
 .design{font-size:60px; 
-		color:blue; 
+		color:white; 
 		text-align:center; 
 		padding-top:210px;
-		padding-bottom: 210px;}
+		padding-bottom:210px;}
 
-.design1{font-size:60px; 
-		color:blue; 
+.design1{font-size:40px; 
+		color:black; 
 		text-align:center; 
 		padding-top:50px;
 		padding-bottom:30px;
 		margin-bottom: 0px;
 		margin-top: 0px;
 		width:100wv;
-		background-color:#D1C4F5;}
+		outline: none;
+		background-color:#F7E2D0;}
 
-.design2{font-size:60px; 
-		color:blue; 
+.design2{font-size:40px; 
+		color:black; 
 		text-align:center; 
 		padding-top:50px;
 		padding-bottom:30px;
 		margin-bottom: 0px;
 		margin-top: 0px;
 		width:100wv;
-		background-color:#9372ED;}
+		outline: none;
+		background-color:#FCD9BB;}
 
-.parragraphdesign1{font-size:30px;
-	              color:black;
+.parragraphdesign1{font-size:20px;
+	              color:gray;
 	              text-align: center;
 	              width:100%;
 	              padding-bottom:50px;
 	              margin-bottom: 0px;
 	              margin-top: 0px;
-	              background-color:#D1C4F5;}
+	              outline: none;
+	              background-color:#F7E2D0;}
 
-.parragraphdesign2{font-size:30px;
-	              color:black;
+.parragraphdesign2{font-size:20px;
+	              color:gray;
 	              text-align: center;
 	              width:100%;
 	              padding-bottom:50px;
 	              margin-bottom: 0px;
 	              margin-top: 0px;
-	              background-color:#9372ED;}
+	              outline: none;
+	              background-color:#FCD9BB;}
 
-body {background-color:#D1C4F5; 
-	 font-family:'Quicksand';}
+body {background-color:#F7E2D0; 
+	 font-family:'Quicksand';
+	 outline:none;}
